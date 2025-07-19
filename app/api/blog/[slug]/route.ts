@@ -9,7 +9,7 @@ export async function GET(
     const { slug } = await params;
     const post = await getPost(slug);
     return NextResponse.json(post);
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: "Failed to fetch blog post" },
       { status: 500 }

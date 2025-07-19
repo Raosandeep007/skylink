@@ -49,9 +49,9 @@ export async function getPost(slug: string) {
 }
 
 async function getAllPosts(dir: string) {
-  const mdxFiles = getMXFiles(dir);
+  const mdFiles = getMXFiles(dir);
   return Promise.all(
-    mdxFiles.map(async (file) => {
+    mdFiles.map(async (file) => {
       const slug = path.basename(file, path.extname(file));
       const { metadata, source } = await getPost(slug);
       return {

@@ -15,7 +15,7 @@ interface BlogProps {
 
 export default function Blog({ params }: BlogProps) {
   const resolvedParams = use(params);
-  const { post, loading, error, refetch } = useBlogPost(resolvedParams.slug, {
+  const { post, loading, error } = useBlogPost(resolvedParams.slug, {
     enableLiveReload: true,
   });
 

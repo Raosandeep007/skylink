@@ -20,7 +20,7 @@ export async function GET(request: NextRequest) {
 
   const stream = new ReadableStream({
     start(controller) {
-      const filePath = path.join(process.cwd(), "content", `${slug}.mdx`);
+      const filePath = path.join(process.cwd(), "content", `${slug}.md`);
 
       // Send initial data
       controller.enqueue(`data: ${JSON.stringify({ type: "connected" })}\n\n`);

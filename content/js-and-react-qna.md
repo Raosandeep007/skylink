@@ -3,8 +3,11 @@ title: "JavaScript and React Interview Prep Checklist"
 publishedAt: "2025-01-27"
 summary: "A comprehensive checklist covering core JavaScript concepts, React fundamentals, advanced topics, and practical problem-solving challenges for frontend developers."
 ---
+
 ---
+
 #### JavaScript Basics
+
 - [ ] Understand **Promise**, **async/await**, and their usage.
 - [ ] Recognise and handle **callback hell**.
 - [ ] Explain the **event loop** mechanism.
@@ -101,4 +104,5 @@ summary: "A comprehensive checklist covering core JavaScript concepts, React fun
 - [ ] **LRU Cache**: Implement an LRU (Least Recently Used) Cache using JavaScript `Map`.
 - [ ] **Custom Promise**: Create a custom Promise class with `then`, `catch`, and `resolve`.
 - [ ] **Module Bundler**: Write a dependency graph resolver for JavaScript modules.
----- 
+
+---
